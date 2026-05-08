@@ -1,0 +1,2 @@
+WELL,SOURCE_CURATED_PARQUET,ENRICHED_ROWS,ENRICHED_COLUMNS,DEPTH_MIN,DEPTH_MAX,HAS_VP_MPS,HAS_VS_MPS,HAS_AI,HAS_POISSON_RATIO,GR_CLEAN_P05,GR_SHALE_P95,ENRICHED_PARQUET
+TFT-4,../data/curated/parquet/single_well_qc/TFT-4_single_well_qc_curated.parquet,18731,111,372.0084,3218.9684,True,True,True,True,45.7006235125,125.4410133325,../data/enriched/parquet/single_well_features/TFT-4_single_well_features_enriched.parquet

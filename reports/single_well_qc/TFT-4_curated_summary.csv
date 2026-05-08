@@ -1,0 +1,2 @@
+WELL,SOURCE_FILE,CURATED_ROWS,CURATED_COLUMNS,DEPTH_MIN,DEPTH_MAX,HAS_DTC,HAS_DTS,HAS_RHOB,HAS_GR,CURATED_PARQUET
+TFT-4,TFT-4.las,18731,92,372.0084,3218.9684,True,True,True,True,../data/curated/parquet/single_well_qc/TFT-4_single_well_qc_curated.parquet

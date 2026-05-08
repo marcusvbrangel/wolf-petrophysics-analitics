@@ -1,0 +1,2 @@
+WELL,SOURCE_ENRICHED_PARQUET,ANALYTICS_ROWS,ANALYTICS_COLUMNS,DEPTH_MIN,DEPTH_MAX,HAS_RESERVOIR_QUALITY_SCORE,HAS_HOMOGENEITY_SCORE,HAS_ANOMALY_SCORE,HAS_PHYSICAL_FACIES_RULE,ANALYTICS_PARQUET
+TFT-4,../data/enriched/parquet/single_well_features/TFT-4_single_well_features_enriched.parquet,18731,143,372.0084,3218.9684,True,True,True,True,../data/analytics/parquet/single_well_analytics/TFT-4_single_well_analytics.parquet

@@ -2,7 +2,7 @@ CURVE,UNIT,DESCRIPTION,UNIT_NORMALIZED,UNIT_QC_STATUS,EXPECTED_UNITS
 DEPT,m,DEPTH,m,OK,"['m', 'meter', 'meters', 'ft', 'feet', '']"
 ROPA,_,ROPA,_,NO_RULE,[]
 BS,in,BS,in,OK,"['in', 'inch', 'inches', '']"
-GR,gAPI,GR,gapi,OK,"['gapi', 'api', 'gapi', '']"
+GR,gAPI,GR,gapi,OK,"['gapi', 'api', '']"
 ROP,m/h,ROP,m/h,NO_RULE,[]
 DEPTH_MD,_,DEPTH_MD,_,CHECK_UNIT,"['m', 'meter', 'meters', 'ft', 'feet', '']"
 RDEP,ohm.m,RDEP,ohm.m,OK,"['ohm.m', 'ohmm', 'ohm-m', '']"
