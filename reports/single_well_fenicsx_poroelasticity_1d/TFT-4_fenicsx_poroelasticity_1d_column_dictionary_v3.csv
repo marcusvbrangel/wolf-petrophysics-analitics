@@ -1,0 +1,12 @@
+COLUMN,DTYPE,NON_NULL_COUNT,NULL_COUNT,FILL_RATE
+x_m,float64,2303,0,1.0
+p_pa,float64,2303,0,1.0
+step,int64,2303,0,1.0
+time_s,float64,2303,0,1.0
+E_pa,float64,2303,0,1.0
+delta_p_pa,float64,2303,0,1.0
+epsilon_poro,float64,2303,0,1.0
+u_poro_m,float64,2303,0,1.0
+sigma_effective_pa,float64,2303,0,1.0
+DEPTH,float64,2303,0,1.0
+WELL,str,2303,0,1.0

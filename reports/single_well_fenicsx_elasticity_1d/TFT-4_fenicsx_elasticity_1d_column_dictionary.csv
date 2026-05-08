@@ -1,0 +1,8 @@
+COLUMN,DTYPE,NON_NULL_COUNT,NULL_COUNT,FILL_RATE
+x_m,float64,329,0,1.0
+u_m,float64,329,0,1.0
+E_pa,float64,329,0,1.0
+epsilon,float64,329,0,1.0
+sigma_pa,float64,329,0,1.0
+DEPTH,float64,329,0,1.0
+WELL,str,329,0,1.0
