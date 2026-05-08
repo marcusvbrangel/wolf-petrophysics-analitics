@@ -1,0 +1,9 @@
+CHECK,PASS_COUNT,PASS_RATE
+rho_positive,329,1.0
+vp_positive,329,1.0
+vs_positive,329,1.0
+vp_gt_vs,329,1.0
+nu_valid,329,1.0
+G_pa_positive,329,1.0
+K_pa_positive,329,1.0
+E_pa_positive,329,1.0

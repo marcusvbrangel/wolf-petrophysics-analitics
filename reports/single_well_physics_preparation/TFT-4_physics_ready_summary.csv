@@ -1,0 +1,2 @@
+WELL,SOURCE_ANALYTICS_PARQUET,PHYSICS_READY_PARQUET,ROWS,COLUMNS,DEPTH_MIN,DEPTH_MAX,MESH_STEP,VALID_RATE
+TFT-4,../data/analytics/parquet/single_well_analytics/TFT-4_single_well_analytics.parquet,../data/physics_ready/parquet/single_well_fenics_ready/TFT-4_fenics_ready_2350m1_2400m0.parquet,329,16,2350.1364,2399.992400000014,0.15200000000004366,1.0
