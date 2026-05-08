@@ -1,0 +1,19 @@
+services:
+  fenicsx-lab:
+    image: dolfinx/lab:stable
+    container_name: wolf-fenicsx-lab
+    init: true
+
+    ports:
+      - "127.0.0.1:8888:8888"
+
+    volumes:
+      - ./:/root/shared
+
+    working_dir: /root/shared
+
+    environment:
+      - JUPYTER_TOKEN=wolf
+      - JUPYTER_ENABLE_LAB=yes
+
+    restart: unless-stopped
