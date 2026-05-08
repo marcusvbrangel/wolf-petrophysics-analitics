@@ -1,0 +1,109 @@
+COLUMN,DTYPE,NON_NULL_COUNT,NULL_COUNT,FILL_RATE,MEANING
+WELL,string,18731,0,1.0,Original or intermediate curve/attribute
+DEPTH,float64,18731,0,1.0,Original or intermediate curve/attribute
+RESAMPLE_STEP,float64,18731,0,1.0,Original or intermediate curve/attribute
+GR,float64,18731,0,1.0,Gamma Ray
+RHOB,float64,18731,0,1.0,Bulk Density
+DTC,float64,18731,0,1.0,Compressional Sonic
+DTS,float64,18731,0,1.0,Shear Sonic
+NPOR,float64,18731,0,1.0,Neutron Porosity
+RDEP,float64,18731,0,1.0,Deep Resistivity
+RMED,float64,18731,0,1.0,Medium Resistivity
+CALI,float64,18731,0,1.0,Caliper
+BS,float64,18731,0,1.0,Bit Size
+DCALC,float64,18731,0,1.0,Original or intermediate curve/attribute
+VP_MPS,float64,18731,0,1.0,Compressional velocity derived from DTC
+VS_MPS,float64,18731,0,1.0,Shear velocity derived from DTS
+RHOB_KG_M3,float64,18731,0,1.0,Original or intermediate curve/attribute
+AI,float64,18731,0,1.0,Acoustic impedance = density * Vp
+SI,float64,18731,0,1.0,Shear impedance = density * Vs
+VP_VS_RATIO,float64,18731,0,1.0,Vp/Vs ratio
+POISSON_RATIO,float64,18731,0,1.0,Poisson ratio derived from Vp and Vs
+SHEAR_MODULUS_PA,float64,18731,0,1.0,Shear modulus G = rho * Vs^2
+BULK_MODULUS_PA,float64,18731,0,1.0,Bulk modulus K = rho * (Vp^2 - 4/3 Vs^2)
+YOUNG_MODULUS_PA,float64,18731,0,1.0,Young modulus E = 2G(1+nu)
+VSH_GR_LINEAR,float64,18731,0,1.0,Linear shale volume approximation from GR percentiles
+LITHOLOGY_CONFIDENCE,float64,18731,0,1.0,Original or intermediate curve/attribute
+LITHOLOGY_CLASS,float64,18731,0,1.0,Original or intermediate curve/attribute
+ROPA,float64,18731,0,1.0,Original or intermediate curve/attribute
+ROP,float64,18731,0,1.0,Original or intermediate curve/attribute
+PEF,float64,18731,0,1.0,Original or intermediate curve/attribute
+DRHO,float64,18731,0,1.0,Original or intermediate curve/attribute
+X_LOC,float64,18731,0,1.0,Original or intermediate curve/attribute
+Y_LOC,float64,18731,0,1.0,Original or intermediate curve/attribute
+Z_LOC,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_GR_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_GR_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_GR_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_GR_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTC_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTC_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTC_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTC_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTS_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTS_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTS_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTS_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_NPOR_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_NPOR_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_NPOR_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_NPOR_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RDEP_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RDEP_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RDEP_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RDEP_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RMED_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RMED_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RMED_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RMED_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CALI_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CALI_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CALI_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CALI_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_BS_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_BS_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_BS_ZERO,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_BS_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_GR_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTC_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_DTS_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_NPOR_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RDEP_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RMED_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CALI_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_BS_IQR_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_GR,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_GR_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_RHOB,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_RHOB_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_DTC,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_DTC_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_DTS,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_DTS_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_NPOR,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_NPOR_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_RDEP,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_RDEP_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_RMED,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_RMED_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_CALI,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_CALI_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+ROBUST_Z_BS,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_BS_ROBUST_Z_OUTLIER,bool,18731,0,1.0,QC / geological / physical flag
+QC_FLAG_COUNT,float64,18731,0,1.0,Original or intermediate curve/attribute
+QC_HAS_ANY_FLAG,float64,18731,0,1.0,Original or intermediate curve/attribute
+FLAG_WASHOUT_DCALC_GT_1IN,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CLEAN_ROCK_GR_LOW,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_SHALEY_GR_HIGH,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_CLEAN_RESISTIVE_ZONE,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_RHOB_SUSPICIOUS_WITH_WASHOUT,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_HIGH_DTC_HIGH_DTS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_POISSON_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_VP_VS_SUSPICIOUS,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_ELASTIC_MODULUS_NEGATIVE,bool,18731,0,1.0,QC / geological / physical flag
+FLAG_INTERPOLATED_ACROSS_LARGE_GAP,bool,18731,0,1.0,QC / geological / physical flag

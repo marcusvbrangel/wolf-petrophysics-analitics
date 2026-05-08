@@ -1,0 +1,2 @@
+WELL,SOURCE_FILE,FINAL_ROWS,FINAL_COLUMNS,DEPTH_MIN,DEPTH_MAX,RESAMPLE_STEP,HAS_DTC,HAS_DTS,HAS_RHOB,HAS_GR,PARQUET_FINAL,PARQUET_PRE_RESAMPLE
+TFT-4,TFT-4.las,18731,108,372.0084,3218.968400000818,0.15200000000004366,True,True,True,True,../data/parquet/processed/TFT-4_single_well_qc_features_resampled.parquet,../data/parquet/processed/TFT-4_single_well_qc_features_pre_resample.parquet

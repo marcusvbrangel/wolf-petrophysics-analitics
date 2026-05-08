@@ -1,0 +1,21 @@
+CURVE,UNIT,DESCRIPTION,UNIT_NORMALIZED,UNIT_QC_STATUS,EXPECTED_UNITS
+DEPT,m,DEPTH,m,OK,"['m', 'meter', 'meters', 'ft', 'feet', '']"
+ROPA,_,ROPA,_,NO_RULE,[]
+BS,in,BS,in,OK,"['in', 'inch', 'inches', '']"
+GR,gAPI,GR,gapi,OK,"['gapi', 'api', 'gapi', '']"
+ROP,m/h,ROP,m/h,NO_RULE,[]
+DEPTH_MD,_,DEPTH_MD,_,CHECK_UNIT,"['m', 'meter', 'meters', 'ft', 'feet', '']"
+RDEP,ohm.m,RDEP,ohm.m,OK,"['ohm.m', 'ohmm', 'ohm-m', '']"
+X_LOC,_,x_loc,_,NO_RULE,[]
+Y_LOC,_,y_loc,_,NO_RULE,[]
+Z_LOC,_,z_loc,_,NO_RULE,[]
+RMED,ohm.m,RMED,ohm.m,OK,"['ohm.m', 'ohmm', 'ohm-m', '']"
+DTC,us/ft,DTC,us/ft,OK,"['us/ft', 'µs/ft', 'usec/ft', '']"
+DTS,us/ft,DTS,us/ft,OK,"['us/ft', 'µs/ft', 'usec/ft', '']"
+DRHO,g/cm3,DRHO,g/cm3,NO_RULE,[]
+CALI,in,CALI,in,OK,"['in', 'inch', 'inches', '']"
+LITHOLOGY_CONFIDENCE,_,LITHOLOGY_CONFIDENCE,_,NO_RULE,[]
+LITHOLOGY_CLASS,_,LITHOLOGY_CLASS,_,NO_RULE,[]
+NPHI,m3/m3,NPHI,m3/m3,OK,"['m3/m3', 'v/v', 'frac', '']"
+PEF,b/e,PEF,b/e,NO_RULE,[]
+RHOB,g/cm3,RHOB,g/cm3,OK,"['g/cm3', 'g/cm³', 'g/cc', '']"
